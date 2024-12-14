@@ -13,9 +13,9 @@ import { NavComponent } from './shared/components/nav/nav.component';
   declarations: [AppComponent, HeaderComponent, NavComponent],
   imports: [
     BrowserModule,
-    EmployeeRoutingModule,
     BrowserAnimationsModule,
     ClarityModule,
+    EmployeeRoutingModule,
     AppRoutingModule,
   ],
   providers: [],
